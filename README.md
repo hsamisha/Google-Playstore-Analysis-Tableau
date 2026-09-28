@@ -1,7 +1,5 @@
 **Google Play Store Analysis**
 
-DashBoard Link -
-
 **Project Overview**
 
 This project analyzes Google Play Store application data to understand app distribution, user ratings, reviews, installations, pricing, app size, and content categories. The analysis combines exploratory data analysis with interactive dashboard reporting to identify patterns that can support product, marketing, and app-market decisions.
@@ -170,6 +168,8 @@ Top Applications by Installs
 Average Rating by Category
 
 Free versus Paid Applications
+<img width="1564" height="810" alt="image" src="https://github.com/user-attachments/assets/09c9ad9a-9e17-422f-90ae-17ee8c3b08c8" />
+
 
 **Dashboard 2 – App Performance**
 
@@ -184,6 +184,8 @@ Rating patterns
 Category comparisons
 
 Top-performing applications
+<img width="1566" height="834" alt="image" src="https://github.com/user-attachments/assets/6699abe4-e8d3-4786-baad-a5066d3d924a" />
+
 
 **Dashboard 3 – Pricing and App Size**
 
@@ -198,6 +200,7 @@ App-size distribution
 Price and performance patterns
 
 Category-level pricing differences
+<img width="1562" height="834" alt="image" src="https://github.com/user-attachments/assets/bd05c861-97e2-4c68-af68-aed135497c40" />
 
 **Recommendations**
 
