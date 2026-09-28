@@ -1,9 +1,5 @@
 # Google Play Store Analysis Dashboard – Tableau
 
-## Dashboard View
-
-[View Interactive Tableau Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
-
 ## Project Overview
 
 The **Google Play Store Analysis Dashboard** is an interactive data analytics project developed using **Tableau** and **Python**.
