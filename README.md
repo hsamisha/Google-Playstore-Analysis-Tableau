@@ -1,240 +1,227 @@
-**Google Play Store Analysis**
+# Google Play Store Analysis Dashboard – Tableau
 
-**Project Overview**
+## Dashboard View
 
-This project analyzes Google Play Store application data to understand app distribution, user ratings, reviews, installations, pricing, app size, and content categories. The analysis combines exploratory data analysis with interactive dashboard reporting to identify patterns that can support product, marketing, and app-market decisions.
-This project analyzes Google Play Store application data to understand app distribution, user ratings, reviews, installations, pricing, app size, and content categories. The analysis combines exploratory data analysis with interactive dashboard reporting to identify patterns that can support product, marketing, and app-market decisions.
+[View Interactive Tableau Dashboard](YOUR_TABLEAU_PUBLIC_LINK)
 
-**Objective**
+## Project Overview
+
+The **Google Play Store Analysis Dashboard** is an interactive data analytics project developed using **Tableau** and **Python**.
+
+The project analyzes Google Play Store application data to understand app distribution, ratings, reviews, installations, pricing, app size, application types, and content categories.
+
+The analysis is presented through an interactive Tableau dashboard containing KPIs, charts, filters, and multiple analytical pages.
+
+## Objective
 
 The main objectives of this project are to:
 
-Understand the distribution of apps across categories and types.
+- Analyze the distribution of applications across different categories.
+- Understand application ratings and review patterns.
+- Analyze installation and user engagement patterns.
+- Compare free and paid applications.
+- Examine application pricing and size.
+- Identify categories and applications with strong user engagement.
+- Analyze application performance across different categories.
+- Present the results through an interactive Tableau dashboard.
+- Generate meaningful insights from the dataset.
 
-Analyze app ratings, reviews, and installation patterns.
+## Dataset Description
 
-Compare free and paid applications.
+The project uses the **Google Play Store Apps dataset**.
 
-Examine pricing and app-size patterns.
+Important fields include:
 
-Identify categories and applications with strong user engagement.
+- App
+- Category
+- Rating
+- Reviews
+- Size
+- Installs
+- Type
+- Price
+- Content Rating
+- Genres
+- Last Updated
+- Current Version
+- Android Version
 
-Discover important trends and observations from the dataset.
+The project also includes the **Google Play Store User Reviews dataset**, which can be used for additional review-level analysis.
 
-Present the results through an interactive Tableau dashboard.
+## Tools & Technologies Used
 
-**Dataset Description**
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+- Tableau
+- GitHub
+- CSV datasets
 
-The primary dataset is the Google Play Store Apps dataset.
+## Approach / Methodology
 
-Key fields include:
+### 1. Data Collection
 
-App – Application name.
+The Google Play Store datasets were collected and loaded for analysis.
 
-Category – Google Play Store application category.
+### 2. Data Cleaning
 
-Rating – User rating of the application.
+The data was checked and prepared by handling:
 
-Reviews – Number of user reviews.
+- Missing values
+- Duplicate application records
+- Incorrect data types
+- Non-numeric values
+- Installation formatting
+- Price formatting
+- Application size values
 
-Size – Application size.
+### 3. Exploratory Data Analysis
 
-Installs – Approximate number of installations.
+EDA was performed to analyze:
 
-Type – Free or Paid application.
+- App distribution by category
+- Rating distribution
+- Review patterns
+- Installation patterns
+- Free vs paid applications
+- Pricing distribution
+- App-size patterns
+- Content-rating distribution
+- Category-level performance
 
-Price – Application price.
+### 4. Data Visualization
 
-Content Rating – Intended audience/content rating.
+Charts were created to identify important trends, relationships, and patterns in the dataset.
 
-Genres – Application genre classification.
+### 5. Tableau Dashboard Development
 
-Last Updated – Date on which the application was last updated.
+The cleaned dataset was used to develop an interactive Tableau dashboard containing KPIs, charts, filters, and multiple analytical pages.
 
-Current Ver – Current application version.
+### 6. Insight Generation
 
-Android Ver – Required Android version.
+The analysis was used to identify important trends, patterns, and observations from the Google Play Store dataset.
 
-A second file, googleplaystore_user_reviews.csv, contains user-review information and can be used to extend the analysis with sentiment and review-level insights.
+## Analysis & Key Findings
 
-**Tools & Technologies Used**
+### App Category Analysis
 
-Python
+The dashboard analyzes application distribution across different Google Play Store categories.
 
-Pandas
+### Rating Analysis
 
-NumPy
+Application ratings are analyzed to understand user rating patterns and category-level differences.
 
-Matplotlib / Seaborn
+### Installation & Review Analysis
 
-Jupyter Notebook
+Installation and review counts are analyzed as indicators of application reach and user engagement.
 
-Tableau
+### Free vs Paid Analysis
 
-GitHub
+The project compares free and paid applications based on pricing, installations, ratings, and other performance indicators.
 
-CSV datasets
+### App Size Analysis
 
-**Approach / Methodology**
+Application size is analyzed to understand size distribution and differences across applications and categories.
 
-1. Data Collection
+## Key Insights
 
-The Google Play Store application dataset was loaded from CSV files.
+Based on the analysis:
 
-2. Data Cleaning
+- The dataset contains applications across a wide range of categories.
+- Free applications represent the majority of applications.
+- Application ratings provide an indication of user satisfaction.
+- Reviews and installations provide useful indicators of user engagement and application reach.
+- Installation volume varies considerably across application categories.
+- Popular applications can have significantly higher installation and review volumes.
+- Free and paid applications show differences in availability and pricing patterns.
+- Installation volume and rating should be considered together when evaluating application performance.
 
-The data was checked for:
+## Dashboard Overview
 
-Missing values
+The Tableau project contains three main dashboards.
 
-Duplicate application records
+### Dashboard 1 – Executive Overview
 
-Incorrect or inconsistent data types
+This dashboard provides a high-level summary of the Google Play Store dataset.
 
-Non-numeric values in rating, reviews, installs, size, and price fields
+It includes:
 
-Formatting issues in installation and price columns
+- Average Rating
+- Total Apps
+- Total Installs
+- Apps by Category
+- Top Applications by Installs
+- Average Rating by Category
+- Free vs Paid Applications
 
-3. Exploratory Data Analysis
+<img width="1574" height="809" alt="image" src="https://github.com/user-attachments/assets/3326b61e-192f-420f-82d6-a8ea19615bc1" />
 
-EDA was performed to investigate:
 
-App distribution by category
+### Dashboard 2 – App Performance
 
-Rating distribution
+This dashboard focuses on application performance and user engagement.
 
-Review and installation patterns
+It includes:
 
-Free versus paid applications
+- Installation Performance
+- Review Volume
+- Rating Patterns
+- Category Comparisons
+- Top Performing Applications
 
-Pricing distribution
+<img width="1570" height="837" alt="image" src="https://github.com/user-attachments/assets/3efb02b0-e5d1-40ac-a48e-ff53b3099073" />
 
-App-size patterns
 
-Content-rating distribution
+### Dashboard 3 – Pricing and App Size
 
-Category-level performance
+This dashboard focuses on pricing and application size.
 
-4. Visualization
+It includes:
 
-Charts were created to identify trends and relationships between important variables.
+- Free vs Paid Applications
+- Application Pricing
+- App Size Distribution
+- Price and Performance Patterns
+- Category-Level Pricing Differences
 
-5. Dashboard Development
+<img width="1570" height="837" alt="image" src="https://github.com/user-attachments/assets/327dc278-643c-401f-8666-389b2df78f2c" />
 
-The analysis was transformed into an interactive Tableau dashboard containing KPIs, charts, comparisons, and category-level analysis.
 
-**Analysis & Key Findings**
+## Key Performance Indicators
 
-Based on the available dataset, the following observations were identified:
+| KPI | Description |
+|---|---|
+| Total Apps | Total number of applications analyzed |
+| Average Rating | Average rating of applications |
+| Total Installs | Total installation volume |
+| Total Reviews | Total review volume |
+| Free Apps | Number of free applications |
+| Paid Apps | Number of paid applications |
 
-The dataset contains approximately 10,841 app records before project-specific cleaning and duplicate handling.
+## Recommendations
 
-There are 34 application categories, showing a broad range of app-market segments.
+Based on the analysis:
 
-Free applications represent approximately 92.6% of the records, while paid applications represent approximately 7.4%.
+- Monitor both installation volume and ratings when evaluating application performance.
+- Analyze high-performing categories to understand market demand.
+- Monitor reviews and ratings to understand user engagement.
+- Consider category demand when evaluating pricing strategies.
+- Consider application size during application development.
+- Use user feedback and review patterns to identify opportunities for improvement.
+- Regularly monitor application performance metrics.
 
-The overall average rating among available rating values is approximately 4.19.
+## Conclusion
 
-GAME has the highest total installation volume among the categories in the dataset.
+The **Google Play Store Analysis Dashboard** provides an interactive view of application-market patterns using **Tableau**.
 
-Google News is among the applications with the highest recorded installation value in the dataset.
+The project analyzes application categories, ratings, reviews, installations, pricing, application types, and app sizes to identify meaningful trends and observations.
 
-1.9 has the highest average category rating among categories with available rating data, at approximately 19.00.
+By combining data cleaning, exploratory data analysis, visualization, and Tableau dashboard development, the project demonstrates practical skills in data analytics and business intelligence.
 
-Installation volume and review count provide useful indicators of application reach and user engagement, but high installation volume does not automatically imply a higher average rating.
-
-The comparison between free and paid applications helps identify differences in market availability and pricing strategies.
-
-These findings should be interpreted together with the visualizations and cleaned dataset used in the final notebook and dashboard.
-
-**Dashboard Overview**
-
-The Tableau dashboard provides an interactive view of the Google Play Store analysis.
-
-**Dashboard 1 – Executive Overview**
-
-The executive dashboard summarizes the major KPIs and overall app-market patterns, including:
-
-Average Rating
-
-Total Apps
-
-Total Installs
-
-Apps by Category
-
-Top Applications by Installs
-
-Average Rating by Category
-
-Free versus Paid Applications
-<img width="1564" height="810" alt="image" src="https://github.com/user-attachments/assets/09c9ad9a-9e17-422f-90ae-17ee8c3b08c8" />
-
-
-**Dashboard 2 – App Performance**
-
-This dashboard focuses on application performance and user engagement through metrics such as:
-
-Installation performance
-
-Review volume
-
-Rating patterns
-
-Category comparisons
-
-Top-performing applications
-<img width="1566" height="834" alt="image" src="https://github.com/user-attachments/assets/6699abe4-e8d3-4786-baad-a5066d3d924a" />
-
-
-**Dashboard 3 – Pricing and App Size**
-
-This dashboard examines:
-
-Free versus paid applications
-
-Application pricing
-
-App-size distribution
-
-Price and performance patterns
-
-Category-level pricing differences
-<img width="1562" height="834" alt="image" src="https://github.com/user-attachments/assets/bd05c861-97e2-4c68-af68-aed135497c40" />
-
-**Recommendations**
-
-Based on the analysis, the following data-driven recommendations can be considered:
-
-App developers should monitor both installation volume and user ratings rather than relying on a single performance metric.
-
-Categories with strong installation activity can be examined further to understand successful app characteristics.
-
-Developers should track review volume and rating trends as indicators of user engagement and satisfaction.
-
-Pricing decisions for paid applications should be evaluated alongside category demand and user engagement.
-
-App size should be considered during product design because large applications may affect accessibility for users with limited device storage or network bandwidth.
-
-Regular updates and user feedback analysis can help identify opportunities for improving application quality and retention.
-
-**Conclusion**
-
-The Google Play Store Analysis project demonstrates how exploratory data analysis and dashboard visualization can be used to understand application-market trends.
-
-The project examines app categories, ratings, reviews, installations, pricing, application types, and other attributes to identify meaningful patterns. The Tableau dashboards make these findings easier to explore and communicate.
-
-Overall, the project provides a structured analytical view of the Google Play Store dataset and demonstrates practical skills in data cleaning, exploratory analysis, visualization, dashboard development, and business insight generation.
-
-**Project Files**
-
-googleplaystore.csv – Main Google Play Store application dataset.
-
-googleplaystore_user_reviews.csv – User review dataset.
-
-Google Play Store Analysis Tableau.twb – Tableau workbook.
-
-EDA notebook – Data cleaning, exploration, visualizations, and key insights.
+The interactive dashboard makes the analysis easier to explore and communicate to users and stakeholders.
 
 **Key Insights Cell for the EDA Notebook**
 
